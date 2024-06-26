@@ -14,6 +14,7 @@
 }
 
 body {
+    background-image: url(imagem/fundo.png);
     background-color: black;
     color: white;
     Min-width: 200px;
@@ -36,7 +37,7 @@ img {
 }
 
 header {
-    margin-top: 50px;
+    margin-top: 100px;
     background-color: rgb(46, 46, 46);
     height: 600px;
     line-height: 40px;
