@@ -18,6 +18,9 @@
 body {
     background-image: url(imagem/fundo.png);
     background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     color: white;
     Min-width: 200px;
 	Max-width: 400px;
@@ -36,7 +39,6 @@ a {
 
 a:hover {
     background: #B1B1B1;
-    color: #FFF;
     font-weight: bold;
     border-color: #B1B1B1;
 }
@@ -83,4 +85,9 @@ footer {
     background-color:  rgb(77, 77, 77);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+}
+
+footer > p>a {
+    border-radius: 10px;
+    padding: 2.5px;
 }
