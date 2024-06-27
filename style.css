@@ -32,6 +32,13 @@ a {
     color: white;
 }
 
+a:hover {
+    background: #B1B1B1;
+    color: #FFF;
+    font-weight: bold;
+    border-color: #B1B1B1;
+}
+
 img {
     padding-top: 50px;
 }
